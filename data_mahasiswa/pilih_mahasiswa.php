@@ -61,9 +61,6 @@ while($data = mysqli_fetch_array($result))
                 <input readonly="" type="text" name="agama" class="form-control" value=<?php echo $agama;?>>
         </div>     
             <hr>
-            <a class="btn btn-success" href='../data_krs/add_krs.php?<?php echo 'id_mahasiswa'.'='.$id_mahasiswa;?>'> lanjut untuk mengisi KRS</a>
-            <a href="../login_signup/logout.php" class="btn btn-danger">Logout</a>   
-            </form>
         </div>
     </div>    
 </div>
